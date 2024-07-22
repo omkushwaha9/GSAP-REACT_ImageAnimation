@@ -1,4 +1,4 @@
-# GSAP TimelineAnimation Website
+# GSAP-React_ImageAnimation
 
 <h2>
 GSAP
