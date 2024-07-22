@@ -6,7 +6,7 @@ import { useState } from 'react';
 
 const App = () => {
   const randomX = gsap.utils.random(-10, 1150, 100, true);
-  const rotateX = gsap.utils.random(-180,180,30, true);
+  const rotateX = gsap.utils.random(-180, 180, 30, true);
   const randomY = gsap.utils.random(-10, 250, 30, true);
 
   const [xValue, setXValue] = useState(0);
@@ -18,19 +18,19 @@ const App = () => {
 
   useGSAP(() => {
     gsap.to(imageref.current, {
-      x:xValue,
-      y:yValue,
+      x: xValue,
+      y: yValue,
       duration: 1,
-      rotate:roti
+      rotate: roti
     })
-  }, [xValue,rotateX,yValue])
+  }, [xValue, rotateX, yValue])
 
   return (
     <main>
       <button onClick={() => {
-       setXValue(randomX)
-       setRoti(rotateX)
-       setYValue(randomY)
+        setXValue(randomX)
+        setRoti(rotateX)
+        setYValue(randomY)
       }}>Animate</button>
       <img ref={imageref} src='https://pngimg.com/d/bee_PNG74646.png' />
     </main>
