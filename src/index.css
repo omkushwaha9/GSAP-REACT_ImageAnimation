@@ -39,13 +39,6 @@ button {
   scale: 0.70;
 }
 
-.circle {
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
-  background: linear-gradient(rgba(0, 180, 240, 0.94), rgb(0, 247, 0));
-}
-
 img {
   height: 200px;
 }
