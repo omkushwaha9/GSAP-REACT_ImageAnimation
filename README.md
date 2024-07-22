@@ -29,29 +29,31 @@ Random Movement: The bee moves randomly along both the x-axis and y-axis. This r
 <h3>GSAP Integration</h3>
 GSAP is the backbone of the animation logic in this project. By leveraging GSAP's powerful and flexible animation capabilities, the bee's movements are smooth and fluid. The following GSAP features are utilized:
 
-Random Utility: GSAP’s Random utility function is used to determine the random coordinates for the bee’s movement. This function allows the bee to move to different locations on the screen without any repetitive or predictable pattern.
+<h3>Random Utility:</h3> GSAP’s Random utility function is used to determine the random coordinates for the bee’s movement. This function allows the bee to move to different locations on the screen without any repetitive or predictable pattern.
 
-Timeline: A GSAP timeline is employed to sequence the animations, ensuring that the bee's movement and rotation are coordinated and executed in a visually appealing manner.
+<h3>Timeline:</h3> A GSAP timeline is employed to sequence the animations, ensuring that the bee's movement and rotation are coordinated and executed in a visually appealing manner.
 
-Ease Functions: Various ease functions provided by GSAP are used to control the speed and acceleration of the bee's movements, creating a more natural and engaging animation experience.
+<h3>Ease Functions:</h3> Various ease functions provided by GSAP are used to control the speed and acceleration of the bee's movements, creating a more natural and engaging animation experience.
 
-Implementation Details
-React Component Structure:
+<h2>Implementation Details</h2>
 
+<h3>React Component Structure:</h3>
 The central button and bee image are managed through React components.
 State management in React is used to handle the animation trigger and the positioning of the bee.
 Event Handling:
 
 An onClick event handler is attached to the central button, which starts the GSAP animation sequence when the button is pressed.
-GSAP Animation Logic:
 
-Upon the button click, a GSAP timeline is created.
+<h3>GSAP Animation Logic:</h3>
+
+<b>Upon the button click, a GSAP timeline is created.</b>
 The bee’s initial position is set, and the random movement is defined using the gsap.to method along with the Random utility for both x and y coordinates.
 The rotation animation is added to the timeline, ensuring that the bee rotates by 180 degrees at specific points during its movement.
-User Experience
+
+<b>User Experience</b>
 The interactive nature of this project, combined with the smooth and unpredictable movement of the bee, provides a delightful user experience. The simplicity of the interface, with a single central button, ensures that users can easily engage with the animation without any distractions.
 
-Conclusion
+<h2>Conclusion</h2>
 This project effectively demonstrates the power of combining React and GSAP to create interactive and visually appealing web animations. The use of random movement and rotation for the bee image adds a layer of unpredictability and fun, making the application engaging for users of all ages.
 <h1>
 by OM KUSHWAHA
