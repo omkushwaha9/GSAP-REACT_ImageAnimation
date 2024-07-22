@@ -21,12 +21,7 @@ main {
 
 }
 
-.box {
-  height: 300px;
-  width: 300px;
-  background: linear-gradient(rgb(248, 183, 234), rgb(0, 0, 0), rgb(177, 175, 255));
-  border-radius: 20px;
-}
+
 
 button {
   padding: 10px 40px;
