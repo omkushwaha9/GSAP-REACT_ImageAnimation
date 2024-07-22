@@ -28,7 +28,6 @@ button {
   position: absolute;
   top: 50%;
   right: 45%;
-
   border-radius: 50px;
   background: linear-gradient(lightgreen, seagreen);
   color: black;
